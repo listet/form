@@ -12,7 +12,7 @@ form {
     width: 400px;
     margin: 3rem auto;
     border: 2px solid black;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 form div * {
@@ -26,3 +26,44 @@ form button {
     padding: 1rem;
 }
 
+.content__container {
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    box-shadow: 10px 5px 5px rgb(213, 213, 213);
+}
+
+.header__title {
+    margin: 2rem;
+}
+
+.button {
+    background-color: rgb(90, 143, 153);
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border-color: rgb(42, 82, 118);
+
+}
+
+.logoutBtn {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.story {
+    margin: 10rem;
+}
+
+.jumbotron {
+    background-image: url("SuperMarioBrosWonder-1.jpg");
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
