@@ -56,12 +56,22 @@ form button {
     padding: 1rem;
 }
 
-.story {
-    margin: 10rem;
+.story__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5rem;
+
+}
+
+.imgSize {
+    height: 10rem;
+    margin-top: 1rem;
 }
 
 .jumbotron {
-    background-image: url("SuperMarioBrosWonder-1.jpg");
+    background-image: url("./images/SuperMarioBrosWonder-1.jpg");
     height: 30rem;
     background-size: cover;
     background-position: center;
